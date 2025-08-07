@@ -1,6 +1,6 @@
 # Internal-Developers-Platforms-overview
 ## Backstage with Humanitec orchestrator Platform Engineers and DevOps work flow
-Assuptions:  
+Assumptions:  
 
 ```
 Public Cloud  : AWS  
