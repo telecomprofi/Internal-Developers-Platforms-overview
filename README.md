@@ -72,3 +72,49 @@ graph TD
 
 Other view (anchored to Team)
 <img width="9997" height="2130" alt="image" src="https://github.com/user-attachments/assets/4dfa8164-5c45-4f8d-816f-72283266611f" />
+
+```mermaid
+graph TD
+    A[Initial Setup Phase] --> B[Manual Creation]
+    B --> B1[Platform Engineers: Create AWS Resources Manually]
+    B --> B2[DevOps: Create K8s Manifests/Helm Charts Manually]
+    
+    A --> C[Automation Phase]
+    C --> C1[Platform Engineers: Terraform AWS Resources]
+    C1 --> C1a[Shared EKS for Non-Prod]
+    C1 --> C1b[Dedicated EKS per Prod Account]
+    C --> C2[DevOps: Convert to score.yaml]
+    
+    C --> D[Humanitec Integration]
+    D --> D1[Platform Engineers: Create Resource Definitions]
+    D1 --> D1a[Template with Humanitec Variables]
+    D --> D2[DevOps: Setup score.yaml with Placeholders]
+    
+    D --> E[CI/CD Pipeline Creation]
+    E --> E1[Platform Engineers]
+    E1 --> E1a[Resource Module Repos]
+    E1 --> E1b[Resource Definition Repos]
+    E1 --> E1c[IAM/OIDC Setup]
+    E --> E2[DevOps]
+    E2 --> E2a[App Repo CI/CD]
+    E2 --> E2b[Humanitec Integration]
+    
+    E --> F[Security Gates]
+    F --> F1[SAST/SCA]
+    F --> F2[IaC Scans]
+    F --> F3[Container Scans]
+    F --> F4[Immutable ECR]
+    F --> F5[PR Reviews]
+    
+    G[Ongoing Operations] --> G1[Platform Engineers: Minimal EKS Maintenance]
+    G --> G2[DevOps: Workload Deployment]
+    
+    style A fill:#f9f,stroke:#333
+    style B fill:#bbf,stroke:#333
+    style C fill:#bbf,stroke:#333
+    style D fill:#bbf,stroke:#333
+    style E fill:#bbf,stroke:#333
+    style F fill:#fbb,stroke:#f66
+    style G fill:#bfb,stroke:#393
+```
+
