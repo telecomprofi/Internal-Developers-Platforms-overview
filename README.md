@@ -69,3 +69,6 @@ graph TD
 
 
 ```
+
+Other view (anchored to Team)
+<img width="9997" height="2130" alt="image" src="https://github.com/user-attachments/assets/4dfa8164-5c45-4f8d-816f-72283266611f" />
