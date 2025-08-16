@@ -21,6 +21,8 @@ mindmap
       Resource Dependencies
         Private Resource Used by a single workload
         Shared Resource Used by multiple workloads
+        delegator resource
+        co-provisioning 
       Workload Profiles
         Invisible specs that convert a Score file into runtime Kubernetes manifests
     Execution Flow & Components
