@@ -6,6 +6,25 @@ EKS access entries uses instead of aws-auth mapping to IRSA
 Humanitec agent will running inside EKS 'call home' to Humanitec for new Deployments aka GitOps flow
 Humanitec Orchestrator is running 'Direct/Agent' mode
 
+
+```mermaid
+flowchart TD
+
+    Step1[Create EKS auto mode private cluster in new AWS account]
+    Step2[Create new IAM Role in AWS account with permission to access EKS cluster and trust policy so Humanitec can assume it]
+    Step3[Create Cloud Account in Humanitec and point it to IAM Role. Map this account to new EKS k8s-cluster through resource definition type k8s-cluster with criteria env_type. Workloads with specific env_type will deploy to this cluster]
+    Step4[Install Humanitec agent into new k8s cluster with private API endpoint]
+    Step5[Create new Humanitec resource of type k8s-cluster-agent automatically added to all workloads]
+    Step6[Create new Humanitec resource of type agent that will be implicitly referred from workloads]
+    Step7[Create new k8s ClusterRoles and ClusterRole bindings mapped to EKS cluster API Access Entries for Humanitec Agent]
+    Step8[Create new k8s ClusterRoles and ClusterRole bindings for Opentofu Container Runner]
+    Step9[Configure Kubernetes level access for Container Runner Opentofu to get temporary STS credentials and IAM permissions to spin up AWS resources]
+    Step10[Optional Create new Humanitec resource of type k8s-namespace forming Namespace ID like orgId-appId-envId]
+
+    %% Linear flow
+    Step1 --> Step2 --> Step3 --> Step4 --> Step5 --> Step6 --> Step7 --> Step8 --> Step9 --> Step10
+```
+
 ```mermaid
 flowchart LR
 
