@@ -42,7 +42,13 @@ It runs **two things in parallel**:
 
 Log messages from frontEnd are starting with `[app]`:
 
-`[app]: Loaded config from app-config.yaml, app-config.local.yaml [app]: <i> [webpack-dev-server] Project is running at: [app]: <i> [webpack-dev-server] Loopback: http://localhost:3000/, http://127.0.0.1:3000/ [app]: <i> [webpack-dev-server] Content not from webpack is served from '/Users/work/platform-backstage/packages/app/public' directory [app]: <i> [webpack-dev-server] 404s will fallback to '/index.html' [app]: <i> [webpack-dev-middleware] wait until bundle finished: /`
+```
+[app]: Loaded config from app-config.yaml, app-config.local.yaml 
+[app]: <i> [webpack-dev-server] Project is running at: 
+[app]: <i> [webpack-dev-server] Loopback: http://localhost:3000/, http://127.0.0.1:3000/ 
+[app]: <i> [webpack-dev-server] Content not from webpack is served from '/Users/work/platform-backstage/packages/app/public' directory 
+[app]: <i> [webpack-dev-server] 404s will fallback to '/index.html' [app]: <i> [webpack-dev-middleware] wait until bundle finished: /
+```
 
 ### Backend (Node server):
 
@@ -55,7 +61,10 @@ At the same time:
 Webpack **proxies API requests** to the backend.
 Log messages from backend are starting with [backend]:
 
-`[backend]: 2026-01-20T11:15:46.504Z search info Collating documents for software-catalog succeeded documentType="software-catalog" [backend]: 2026-01-20T11:15:53.535Z catalog info Read 96 GitHub repositories (90 matching the pattern) target="github-provider:OrgNameRepos" class="GithubEntityProvider" taskId="github-provider:OrgNameRepos:refresh" taskInstanceId="192171c1-65a1-4ac7-ae82-b052abba57e8"`
+```
+[backend]: 2026-01-20T11:15:46.504Z search info Collating documents for software-catalog succeeded documentType="software-catalog" 
+[backend]: 2026-01-20T11:15:53.535Z catalog info Read 96 GitHub repositories (90 matching the pattern) target="github-provider:OrgNameRepos" class="GithubEntityProvider" taskId="github-provider:OrgNameRepos:refresh" taskInstanceId="192171c1-65a1-4ac7-ae82-b052abba57e8"
+```
 
 ## Why Backstage uses webpack
 
@@ -98,10 +107,12 @@ When backstage runs as single container (e.g. on AWS ECS cluster) it runs like b
 `yarn start-backend`
 
 typical production flow:
-`Docker build`
-`├─ yarn install`
-`├─ yarn build #webpack runs once, static assets are built`
-`└─ node packages/backend`
+```
+Docker build
+├─ yarn install
+├─ yarn build #webpack runs once, static assets are built
+└─ node packages/backend
+```
 
 From version 1.24 and up there is New Backend which is more protected (e.g. now could be exposed to public internet not as before).
 
