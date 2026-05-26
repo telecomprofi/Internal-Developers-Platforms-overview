@@ -11,7 +11,7 @@ Backstage is a Platform Portal **framework** from Spotify that can provide start
 # What is the Backstage Value Proposition?
 
 
-TL:DR Top things Developer/Team Lead can see in Backstage as of 03/2026
+TL:DR Top things Developer/Team Lead can see in Backstage
 Software Catalog gives single pane of glass and ‘entry point’ to:
 - Application GitHub repo/Confluence/Jira URL links
 - GitHub Actions runs/Deployments
@@ -30,7 +30,9 @@ more detailed description of each is below.
 
 Integrated with DVCS (distributed version control system)--GitHub in our case--that displays service metadata and provides links to documentation, infrastructure, CI/CD Pipelines, Observability Dashboards, SAST statistics, and more.
 
-![image-20260119-113128.png](https://media-cdn.atlassian.com/file/8ffb5800-e69d-420f-aaa4-8be820cc895c/image/cdn?allowAnimated=true&client=0f062e6b-5456-4301-9aa4-60f96157a62d&collection=contentId-7074545666&height=125&max-age=2592000&mode=full-fit&source=mediaCard&token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIwZjA2MmU2Yi01NDU2LTQzMDEtOWFhNC02MGY5NjE1N2E2MmQiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC03MDc0NTQ1NjY2IjpbInJlYWQiXX0sImV4cCI6MTc3OTc5MTQzMSwibmJmIjoxNzc5Nzg4NTUxLCJhYUlkIjoiNzEyMDIwOmI4Yjg5YzViLTFlM2EtNGJhZS05ZTUwLTJkN2I0OGJlYzNkYyIsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hcHBBY2NyZWRpdGVkIjpmYWxzZSwiYXV0aFR5cGUiOiJzZXNzaW9uIn0.RwtmkiPQLD9UhfjVoNHW28VgFCSk1Y23EW1DWldHsFE&width=736#media-blob-url=true&id=8ffb5800-e69d-420f-aaa4-8be820cc895c&clientId=0f062e6b-5456-4301-9aa4-60f96157a62d&contextId=contentId-7074545666&collection=contentId-7074545666)
+![Backstage-01.png](assets/Backstage-01.png)
+
+
 
 Service catalog entries include the Owner, Lifecycle, and Description on the main screen. By clicking a service name, users can open a dedicated service page that shows the full metadata, URLs/links, and all relevant component plugins in separate tabs (e.g., SonarQube, GitHub, Datadog, AWS, cost, DORA metrics scorecards, etc.). These integrations must be installed, added, and configured as plugins in the Backstage backend and frontend by the platform services team.
 
