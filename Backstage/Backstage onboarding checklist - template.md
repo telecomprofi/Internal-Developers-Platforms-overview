@@ -18,7 +18,7 @@ To make onboarding of new Dev team to Internal Developer Portal (Backstage) more
 
 | **Field** | **Details/URL** |
 | --- | --- |
-| GitHub Repo (aka slug like <github-org>/<repo-name>>) |  |
+| GitHub Repo (aka slug like `<github-org>/<repo-name>`) |  |
 | Jira Project key(s) |  |
 | Jira JQL to filter tickets for Dashboard (e.g. labels = prjctnm) |  |
 | Confluence Space (or docs URL) |  |
