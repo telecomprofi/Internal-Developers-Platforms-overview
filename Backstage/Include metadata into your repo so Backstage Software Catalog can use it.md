@@ -4,7 +4,7 @@
 Backstage Software Catalog Hierarchy & Best-Practice Structure
 Related: [Software Catalog]
 
-Open image-20251219-135826.png
+
 
 ![image-20251219-135826.png](assets/Include%20metadata%20into%20your%20repo%20so%20Backstage%20Software%20Catalog%20can%20use%20it%20-%20image-20251219-135826.png)
 
@@ -88,7 +88,7 @@ Each repo becomes one **Component**, with a `type`.
 Common component types (could be anything, no strict schema):
 
 - `service` (backend/API)
-- `website` (frontend) - ![Warning](https://pf-emoji-service.prod-east.frontend.public.atl-paas.net/assets/atlassian/productivityEmojis/exclamation-128px.png) by default - won’t show CI/CD Tab, Jira Dashboard in Backstage even if annotations do exists ![Warning](https://pf-emoji-service.prod-east.frontend.public.atl-paas.net/assets/atlassian/productivityEmojis/exclamation-128px.png)
+- `website` (frontend) - :warning: by default - won’t show CI/CD Tab, Jira Dashboard in Backstage even if annotations do exists :warning:
 - `infrastructure` (Terraform)
 - `library`
 - `documentation`
