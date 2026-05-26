@@ -40,11 +40,11 @@ In this model, a service acts as an “anchor” entry that enables different pi
 
 Software catalog’s screen with list of services:
 
-![image-20260119-113330.png](https://media-cdn.atlassian.com/file/04183eeb-a21d-43d0-be12-dc6bc6d77291/image/cdn?allowAnimated=true&client=0f062e6b-5456-4301-9aa4-60f96157a62d&collection=contentId-7074545666&height=125&max-age=2592000&mode=full-fit&source=mediaCard&token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIwZjA2MmU2Yi01NDU2LTQzMDEtOWFhNC02MGY5NjE1N2E2MmQiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC03MDc0NTQ1NjY2IjpbInJlYWQiXX0sImV4cCI6MTc3OTc5MTQzMSwibmJmIjoxNzc5Nzg4NTUxLCJhYUlkIjoiNzEyMDIwOmI4Yjg5YzViLTFlM2EtNGJhZS05ZTUwLTJkN2I0OGJlYzNkYyIsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hcHBBY2NyZWRpdGVkIjpmYWxzZSwiYXV0aFR5cGUiOiJzZXNzaW9uIn0.RwtmkiPQLD9UhfjVoNHW28VgFCSk1Y23EW1DWldHsFE&width=1276#media-blob-url=true&id=04183eeb-a21d-43d0-be12-dc6bc6d77291&clientId=0f062e6b-5456-4301-9aa4-60f96157a62d&contextId=contentId-7074545666&collection=contentId-7074545666)
+![Backstage-02.png](assets/Backstage-02.png)
 
 Software catalog entry ‘playlist-proxy’ with its Plugins tabs:
 
-![image-20260119-113957.png](https://media-cdn.atlassian.com/file/a4d5d11c-11bd-433e-ad83-b82759347fb7/image/cdn?allowAnimated=true&client=0f062e6b-5456-4301-9aa4-60f96157a62d&collection=contentId-7074545666&height=125&max-age=2592000&mode=full-fit&source=mediaCard&token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIwZjA2MmU2Yi01NDU2LTQzMDEtOWFhNC02MGY5NjE1N2E2MmQiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC03MDc0NTQ1NjY2IjpbInJlYWQiXX0sImV4cCI6MTc3OTc5MTQzMSwibmJmIjoxNzc5Nzg4NTUxLCJhYUlkIjoiNzEyMDIwOmI4Yjg5YzViLTFlM2EtNGJhZS05ZTUwLTJkN2I0OGJlYzNkYyIsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hcHBBY2NyZWRpdGVkIjpmYWxzZSwiYXV0aFR5cGUiOiJzZXNzaW9uIn0.RwtmkiPQLD9UhfjVoNHW28VgFCSk1Y23EW1DWldHsFE&width=572#media-blob-url=true&id=a4d5d11c-11bd-433e-ad83-b82759347fb7&clientId=0f062e6b-5456-4301-9aa4-60f96157a62d&contextId=contentId-7074545666&collection=contentId-7074545666)
+![Backstage-03.png](assets/Backstage-03.png)
 
 Below is example of Software catalog **overview** page with context-specific plugins (aka Overview Entities) displaying data on ‘Backstage’ catalog entry:
 -Built-in About section
@@ -54,7 +54,7 @@ Below is example of Software catalog **overview** page with context-specific plu
 - Security Insights from GHAS
 - Built-inLinks sections
 
-![image-20260126-160049.png](https://media-cdn.atlassian.com/file/cc04d170-46bf-4894-a8c7-b3b8f75f651e/image/cdn?allowAnimated=true&client=0f062e6b-5456-4301-9aa4-60f96157a62d&collection=contentId-7074545666&height=125&max-age=2592000&mode=full-fit&source=mediaCard&token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIwZjA2MmU2Yi01NDU2LTQzMDEtOWFhNC02MGY5NjE1N2E2MmQiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC03MDc0NTQ1NjY2IjpbInJlYWQiXX0sImV4cCI6MTc3OTc5MTQzMSwibmJmIjoxNzc5Nzg4NTUxLCJhYUlkIjoiNzEyMDIwOmI4Yjg5YzViLTFlM2EtNGJhZS05ZTUwLTJkN2I0OGJlYzNkYyIsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hcHBBY2NyZWRpdGVkIjpmYWxzZSwiYXV0aFR5cGUiOiJzZXNzaW9uIn0.RwtmkiPQLD9UhfjVoNHW28VgFCSk1Y23EW1DWldHsFE&width=1262#media-blob-url=true&id=cc04d170-46bf-4894-a8c7-b3b8f75f651e&clientId=0f062e6b-5456-4301-9aa4-60f96157a62d&contextId=contentId-7074545666&collection=contentId-7074545666)
+![Backstage-04.png](assets/Backstage-04.png)
 
 ## Software Templates/**Scaffolder aka Developer’s Self Service**
 
@@ -74,22 +74,22 @@ Plugins allow extending Backstage functionality by calling external API and disp
 
 ### GitHub Actions plugin
 
-​[![](https://github.githubassets.com/favicon.ico)https://github.com/backstage/community-plugins/tree/main/workspaces/github-actions/plugins/github-actionsCan't find link](https://github.com/backstage/community-plugins/tree/main/workspaces/github-actions/plugins/github-actions)Open
+​[https://github.com/backstage/community-plugins/tree/main/workspaces/github-actions/plugins/github-actions](https://github.com/backstage/community-plugins/tree/main/workspaces/github-actions/plugins/github-actions)
 
 Shows latest CI/CD Pipeline GH Actions runs and their status and allows re-run failed workflows, view logs or directly go to specific workflow on GitHub
 
-![image-20260204-124655.png](https://media-cdn.atlassian.com/file/02c26241-9cdb-4539-963f-0f9c0e04270d/image/cdn?allowAnimated=true&client=0f062e6b-5456-4301-9aa4-60f96157a62d&collection=contentId-7074545666&height=125&max-age=2592000&mode=full-fit&source=mediaCard&token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIwZjA2MmU2Yi01NDU2LTQzMDEtOWFhNC02MGY5NjE1N2E2MmQiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC03MDc0NTQ1NjY2IjpbInJlYWQiXX0sImV4cCI6MTc3OTc5MTQzMSwibmJmIjoxNzc5Nzg4NTUxLCJhYUlkIjoiNzEyMDIwOmI4Yjg5YzViLTFlM2EtNGJhZS05ZTUwLTJkN2I0OGJlYzNkYyIsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hcHBBY2NyZWRpdGVkIjpmYWxzZSwiYXV0aFR5cGUiOiJzZXNzaW9uIn0.RwtmkiPQLD9UhfjVoNHW28VgFCSk1Y23EW1DWldHsFE&width=760#media-blob-url=true&id=02c26241-9cdb-4539-963f-0f9c0e04270d&clientId=0f062e6b-5456-4301-9aa4-60f96157a62d&contextId=contentId-7074545666&collection=contentId-7074545666)
+![Backstage-05.png](assets/Backstage-05.png)
 
 Alternatively available in ‘Cards’ mode with branch selection option:
 
-![image-20260204-124918.png](https://media-cdn.atlassian.com/file/d13c0ce8-72e7-4026-9e8f-97df3fec2067/image/cdn?allowAnimated=true&client=0f062e6b-5456-4301-9aa4-60f96157a62d&collection=contentId-7074545666&height=125&max-age=2592000&mode=full-fit&source=mediaCard&token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIwZjA2MmU2Yi01NDU2LTQzMDEtOWFhNC02MGY5NjE1N2E2MmQiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC03MDc0NTQ1NjY2IjpbInJlYWQiXX0sImV4cCI6MTc3OTc5MTQzMSwibmJmIjoxNzc5Nzg4NTUxLCJhYUlkIjoiNzEyMDIwOmI4Yjg5YzViLTFlM2EtNGJhZS05ZTUwLTJkN2I0OGJlYzNkYyIsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hcHBBY2NyZWRpdGVkIjpmYWxzZSwiYXV0aFR5cGUiOiJzZXNzaW9uIn0.RwtmkiPQLD9UhfjVoNHW28VgFCSk1Y23EW1DWldHsFE&width=760#media-blob-url=true&id=d13c0ce8-72e7-4026-9e8f-97df3fec2067&clientId=0f062e6b-5456-4301-9aa4-60f96157a62d&contextId=contentId-7074545666&collection=contentId-7074545666)
+![Backstage-06.png](assets/Backstage-06.png)
 
 ### GitHub Deployments Plugin
 
 [https://www.npmjs.com/package/@backstage-community/plugin-github-deployments](https://www.npmjs.com/package/@backstage-community/plugin-github-deployments)
 Plugin provides list of GH Deployments statuses with Environments/Update date and links to relevant Commits
 
-![image-20260210-084915.png](assets/Launchpad%20-%20Backstage%20–%20TL;DR%20-%20image-20260210-084915.png)
+![Backstage-07.png](assets/Backstage-07.png)
 
 ## **Area: Observability**
 
@@ -97,11 +97,11 @@ Plugin provides list of GH Deployments statuses with Environments/Update date an
 
 This plugin embeds one or more DD graphs into the Component’s **Service Catalog Overview** tab as shown below
 
-![image-20260120-171131.png](assets/Launchpad%20-%20Backstage%20–%20TL;DR%20-%20image-20260120-171131.png)
+![Backstage-08.png](assets/Backstage-08.png)
 
 as well as adding its own **DataDog tab** with one or more DD dashboards that give more detailed look into services' metrics/graphs:
 
-![image-20260126-184147.png](assets/Launchpad%20-%20Backstage%20–%20TL;DR%20-%20image-20260126-184147.png)
+![Backstage-09.png](assets/Backstage-09.png)
 
 ### [DataDog Software Catalog Entity Sync (gh](https://github.com/DataDog/datadog-backstage-plugins)
 
@@ -113,14 +113,14 @@ this Plugin from DataDog allows sync between catalog-info.yaml metadata and Data
 
 [The plugin shows Results of last SonarQube scan](https://github.com/backstage/community-plugins/blob/main/workspaces/sonarqube/plugins/sonarqube-backend/README.md) on Overview page and lets user by clicking on link button (Gate passed on the screenshot below) open Project’s page in SonarQube WebUI and work (ack, review etc) on identified issues: Bugs, Vulnerabilities, CodeSmells, Security Hotspots.
 
-![image-20260203-163759.png](assets/Launchpad%20-%20Backstage%20–%20TL;DR%20-%20image-20260203-163759.png)
+![Backstage-10.png](assets/Backstage-10.png)
 
 ### GitHub Security Insights (GHAS, Dependabot) plugin by Roadie
 [https://roadie.io/backstage/plugins/security-insights/](https://roadie.io/backstage/plugins/security-insights/)
 
 Provides list of security issues/incidents raised by GHAS/Dependabot for the current repo (software catalog entity)
 
-![image-20260120-163943.png](assets/Launchpad%20-%20Backstage%20–%20TL;DR%20-%20image-20260120-163943.png)
+![Backstage-11.png](assets/Backstage-11.png)
 
 ## Area: FinOps
 
@@ -136,7 +136,7 @@ This plugin uses Cost estimates based on terraform code. Infracost license and C
 
 ### AWSLabs Cost Plugin (beta)
 
-​[![](https://github.githubassets.com/favicon.ico)https://github.com/awslabs/backstage-plugins-for-aws/tree/main/plugins/cost-insightsCan't find link](https://github.com/awslabs/backstage-plugins-for-aws/tree/main/plugins/cost-insights)Open
+​[https://github.com/awslabs/backstage-plugins-for-aws/tree/main/plugins/cost-insights](https://github.com/awslabs/backstage-plugins-for-aws/tree/main/plugins/cost-insights)
 
 Implements Spotify CostInsightsAPI for AWS. Uses EngineeringCost app-config.yaml configuration entry and Cost Insights tags annotations to filter AWS costs belonging to specific Component using AWS CostExplorer API (catalog-info.yaml):
 
@@ -178,7 +178,7 @@ Plugins usually focus on three areas: visualization, automation or scorecards bu
 Humanitec has at least two plugins -
 One that shows Environments/Application Deployment status similar to ArgoCD status
 
-![image-20260203-164505.png](assets/Launchpad%20-%20Backstage%20–%20TL;DR%20-%20image-20260203-164505.png)
+![Backstage-12.png](assets/Backstage-12.png)
 
 [and other (purely Backend) that helps create Applications/Environments](https://github.com/humanitec/humanitec-backstage-plugins/tree/main/plugins/humanitec-backend-scaffolder-module)in k8s cluster from Backstage ‘Create from Template’ Interface aka Scaffolder module.
 
@@ -188,9 +188,9 @@ IaC Orchestrator with Enterprise level features, Terraform stacks, Management, G
 
 ### Env0 IaC orchestrator Plugin
 
-​[![](https://github.com/fluidicon.png)GitHub - env0/env0-backstage-plugin: env0 plugin for Backstage](http://github.com/env0/env0-backstage-plugin)Open
+​[GitHub - env0/env0-backstage-plugin: env0 plugin for Backstage](http://github.com/env0/env0-backstage-plugin)
 
-![image-20260210-095426.png](assets/Launchpad%20-%20Backstage%20–%20TL;DR%20-%20image-20260210-095426.png)
+![Backstage-13.png](assets/Backstage-13.png)
 
 **env0 Scaffolder Backend Module** - Defines two custom actions:
 
@@ -203,35 +203,35 @@ IaC Orchestrator with Enterprise level features, Terraform stacks, Management, G
 2. View deployment history
 3. Monitor the current status of environments
 IaaC Self-Service, Terraform Orchestrator.
-​[![](https://cdn.prod.website-files.com/63df9b273f861215467107c8/68b1301ec622e531ae3bc2ea_favicon_2_32x32%201%201.png)Mastering Managed IaC Self-Service: The Complete Guide | env zero](https://www.env0.com/blog/mastering-managed-iac-self-service-the-complete-guide)Open
+​[Mastering Managed IaC Self-Service: The Complete Guide | env zero](https://www.env0.com/blog/mastering-managed-iac-self-service-the-complete-guide)
 
 ### Harness Plugins
 
 offers 8 different plugins for Backstage.
-​[![](https://github.githubassets.com/favicon.ico)harness/backstage-plugins](https://github.com/harness/backstage-plugins)Open
+​[harness/backstage-plugins](https://github.com/harness/backstage-plugins)
 
-![image-20260122-173441.png](assets/Launchpad%20-%20Backstage%20–%20TL;DR%20-%20image-20260122-173441.png)
+![Backstage-14.png](assets/Backstage-14.png)
 
 ## Area: DevOps Velocity/Reliability
 
 ### liatrio backstage dora plugin
 
-​[![](https://github.githubassets.com/favicon.ico)backstage-dora-plugin: main](https://github.com/liatrio/backstage-dora-plugin/tree/main)Open
+​[backstage-dora-plugin: main](https://github.com/liatrio/backstage-dora-plugin/tree/main)
 
 ### OpenDORA plugin
 
 Requires Apache DevLake running and collecting GitHub events)
-​[![](https://github.githubassets.com/favicon.ico)https://github.com/DevoteamNL/opendora/tree/main/backstage-plugin/plugins/open-dora#readmeCan't find link](https://github.com/DevoteamNL/opendora/tree/main/backstage-plugin/plugins/open-dora#readme)Open
+​[https://github.com/DevoteamNL/opendora/tree/main/backstage-plugin/plugins/open-dora#readme](https://github.com/DevoteamNL/opendora/tree/main/backstage-plugin/plugins/open-dora#readme)
 
 ## Jira Plugins
 
 ### Jira dashboard plugin (Spotify)
 
-![image-20260204-125558.png](assets/Launchpad%20-%20Backstage%20–%20TL;DR%20-%20image-20260204-125558.png)
+![Backstage-15.png](assets/Backstage-15.png)
 
 ### [Jira plugin by Roadie](https://roadie.io/backstage/plugins/jira/?utm_source=backstage.io&utm_medium=marketplace&utm_campaign=jira)
 
-![image-20260204-125643.png](assets/Launchpad%20-%20Backstage%20–%20TL;DR%20-%20image-20260204-125643.png)
+![Backstage-16.png](assets/Backstage-16.png)
 
 ## Scorecards Plugins
 
@@ -239,13 +239,13 @@ Requires Apache DevLake running and collecting GitHub events)
 
 [https://github.com/OpsLevel/backstage-plugin](https://github.com/OpsLevel/backstage-plugin)
 
-![image-20260204-132118.png](assets/Launchpad%20-%20Backstage%20–%20TL;DR%20-%20image-20260204-132118.png)
+![Backstage-17.png](assets/Backstage-17.png)
 
 ### Oriflame Maturity ScoreCard plugin
 
-​[![](https://github.githubassets.com/favicon.ico)https://github.com/Oriflame/backstage-plugins/tree/main/plugins/score-cardCan't find link](https://github.com/Oriflame/backstage-plugins/tree/main/plugins/score-card)Open
+​[https://github.com/Oriflame/backstage-plugins/tree/main/plugins/score-card](https://github.com/Oriflame/backstage-plugins/tree/main/plugins/score-card)
 
-![image-20260204-132016.png](assets/Launchpad%20-%20Backstage%20–%20TL;DR%20-%20image-20260204-132016.png)
+![Backstage-18.png](assets/Backstage-18.png)
 
 ### OpenSSF Scorecard (code quality) - wip
 
@@ -256,7 +256,7 @@ Requires Apache DevLake running and collecting GitHub events)
 ### Software catalog Feedback plugin
 
 Plugin that allows provide feedback to Developers of software catalog entry. Good for Internal products fast feedback loop.
-​[![](https://github.githubassets.com/favicon.ico)https://github.com/backstage/community-plugins/tree/main/workspaces/feedback/plugins/feedbackCan't find link](https://github.com/backstage/community-plugins/tree/main/workspaces/feedback/plugins/feedback)Open
+​[https://github.com/backstage/community-plugins/tree/main/workspaces/feedback/plugins/feedback](https://github.com/backstage/community-plugins/tree/main/workspaces/feedback/plugins/feedback)
 
 ### Backstage DevTools Plugin
 
