@@ -5,7 +5,7 @@ Benefits of Internal Developers Portal Backstage for Technical Teams
 
 # What is Backstage?
 
-Backstage is a Platform Portal **framework** from Spotify that can provide starting point for new Software Development project in an Organization, as well as become single pane of glass for various Systems, Projects, Components, Services, APIs, and Infrastructure that are being developed and used by the Organization.
+Backstage is a Platform Portal **framework** from Spotify that can provide starting point for new Software Development project in an Organization, as well as become single pane of glass for various Systems, Projects, Components, Services, APIs, and Infrastructure that are being developed and used by the Organization. Initially envisioned to increase visibility of ownership/security posture/maturity and accountability/DevEx in software development companies, with rapid growth of AI agentic workflows became important source of 'context' metadata that could be used not only by Software Development teams but by SRE/Operations, Management as well.
 
 # What is the Backstage Value Proposition?
 
@@ -14,13 +14,15 @@ TL:DR Top things Developer/Team Lead can see in Backstage
 Software Catalog gives single pane of glass and ‘entry point’ to:
 - Application GitHub repo/Confluence/Jira URL links
 - GitHub Actions runs/Deployments
-- Application/API dependencies
-- Jira Dashboard
+- Application/API dependencies with hyperlinks
+- Jira Dashboard 
 - SonarQube code quality stats
-- DataDog dashboards and graphs
-- GHAS security insights
-- AWS Cost Insights
-- Dora Metrics
+- DataDog observability dashboards and graphs
+- Code vulnerability and security insights (GHAS)
+- Public Cloud Cost Insights (FinOps)
+- Dora Metrics (SRE)
+- Searchable documentation and metadata source (Software catalog/TechDocs)
+- Self-service automation for Day 1 operations (Scaffoldings)
 more detailed description of each is below.
 
 # Default Backstage components
