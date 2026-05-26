@@ -1,6 +1,5 @@
 
-Backstage – TL;DR
- Benefits of Internal Developers Portal for Technical Teams
+Benefits of Internal Developers Portal Backstage for Technical Teams
 
 
 
@@ -58,7 +57,7 @@ Below is example of Software catalog **overview** page with context-specific plu
 
 ## Software Templates/**Scaffolder aka Developer’s Self Service**
 
-Developer’s Self Service scripts with pre-defined by platform team Software templates that allows quick creation of repos, CI/CD Pipelines, infra, application/service code foundations for the most-often used tech stacks and speeds-up new project initiation for selected [Golden Path]
+Developer’s Self Service scripts with pre-defined by platform team Software templates that allows quick creation of repos, CI/CD Pipelines, infra, application/service code foundations for the most-often used tech stacks and speeds-up new project initiation for selected [Golden Path](<Golden Path.md>)
 
 ## **TechDocs**
 
