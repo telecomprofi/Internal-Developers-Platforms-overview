@@ -1,11 +1,12 @@
 
+# How to improve AI agents with context, metadata and more
 
 How to provide AI agents with actual Infrastructure information to help manage software development, decrease AI hallucination and generate code compliant to company standards or regulatory requirements
 
 
 "Garbage in, Garbage out" - decades old statistics/data science motto.
+![AI will fix everytging!](assets/AI-01.webp)
 
-![image-20260521-114512.png](assets/How%20to%20provide%20AI%20agents%20with%20actual%20Infrastructure%20information%20to%20help%20manage%20software%20development,%20decrease%20AI%20hallucination%20and%20generate%20code%20compliant%20to%20company%20standards%20or%20r)
 
 Just like in data analysis AI requires high quality inputs to generate high quality context-specific results relevant to actual environments instead of generic AI slop.
 
