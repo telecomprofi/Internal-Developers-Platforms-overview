@@ -105,10 +105,13 @@ typical production flow:
 
 From version 1.24 and up there is New Backend which is more protected (e.g. now could be exposed to public internet not as before).
 
-Upgrade process: [Extremely complicated](https://www.youtube.com/watch?v=5q6yCSSXIXM) ![disappointed face](https://pf-emoji-service.prod-east.frontend.public.atl-paas.net/assets/standard/ef8b0642-7523-4e13-9fd3-01b65648acf6/128x128/1f61e.png) , will very likely break 3pv plugins.
-Upgrade cycle: every month ![disappointed face](https://pf-emoji-service.prod-east.frontend.public.atl-paas.net/assets/standard/ef8b0642-7523-4e13-9fd3-01b65648acf6/128x128/1f61e.png)
+Upgrade process: [Extremely complicated](https://www.youtube.com/watch?v=5q6yCSSXIXM) :cry: , will very likely break 3pv plugins.
+Upgrade cycle: every month :cry:
 
-Sources:
+## Sources:
+
 [![](https://backstage.io/img/favicon.ico)Backstage Threat Model | Backstage Software Catalog and Developer Platform](https://backstage.io/docs/overview/threat-model/#operator-responsibilities)
+
 [![](https://backstage.io/img/favicon.ico)Architecture overview | Backstage Software Catalog and Developer Platform](https://backstage.io/docs/overview/architecture-overview/)
-[![](https://backstage.github.io/upgrade-helper/favicon.ico)Upgrade Backstage applications](https://backstage.github.io/upgrade-helper/?yarnPlugin=0&from=1.32.4&to=1.46.0-next.2) - Upgrade helper 8-/
+
+[![](https://backstage.github.io/upgrade-helper/favicon.ico)Upgrade Backstage applications](https://backstage.github.io/upgrade-helper/?yarnPlugin=0&from=1.32.4&to=1.46.0-next.2) - Upgrade helper :exploding_head:
